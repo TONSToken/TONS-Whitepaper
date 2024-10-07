@@ -1,0 +1,51 @@
+# ![Tonos (TONS) Logo](https://i.imgur.com/o10BxNw.png)  
+# **Tonos (TONS) Whitepaper**
+
+---
+
+## **Abstract**
+
+Tonos (TONS) is a decentralized ERC20 token built on the Ethereum blockchain, designed to provide seamless integration with decentralized applications (dApps). With a total supply of 180 billion tokens, TONS offers scalability, security, and interoperability for use in payments, staking, and governance.
+
+---
+
+## **1. Introduction**
+
+The rise of decentralized finance (DeFi) has led to a demand for secure, scalable, and interoperable digital assets. **Tonos (TONS)** is designed to meet these requirements, following the widely accepted ERC20 standard to ensure compatibility with wallets, exchanges, and dApps in the Ethereum ecosystem.
+
+### **Key Features**:
+- **Token Name**: Tonos
+- **Symbol**: TONS
+- **Decimals**: 18
+- **Total Supply**: 180 billion TONS
+- **Blockchain**: Ethereum (ERC20)
+
+---
+
+## **2. Market Problem**
+
+Current DeFi solutions face challenges in scalability, security, and interoperability. Many tokens are difficult to integrate into applications, and security vulnerabilities can undermine user confidence. **TONS** addresses these problems by providing a standardized, secure, and scalable token solution.
+
+---
+
+## **3. Token Technology**
+
+### **Smart Contract Overview**
+
+Tonos (TONS) is based on the **OpenZeppelin ERC20 standard**. This ensures full compatibility with Ethereum wallets, decentralized exchanges (DEXs), and DeFi platforms. The smart contract includes the following core functionalities:
+
+- **Token Transfer**: `transfer(address to, uint256 amount)` allows users to transfer TONS tokens between wallets.
+- **Allowance System**: `approve(address spender, uint256 amount)` lets users delegate transfer authority to third parties.
+- **Balance Check**: `balanceOf(address account)` allows querying the balance of any wallet address.
+
+The contract also implements standard security features, such as overflow protection and allowance race condition mitigation.
+
+---
+
+## **4. Tokenomics**
+
+- **Total Supply**: 180 billion TONS tokens minted at the contract’s deployment.
+- **Decimals**: 18, ensuring fine granularity in token transactions.
+- **Initial Distribution**: All tokens were minted and allocated to the deployer’s wallet.
+
+---
